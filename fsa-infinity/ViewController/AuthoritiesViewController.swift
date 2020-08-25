@@ -12,7 +12,7 @@ class AuthoritiesViewController: UITableViewController {
 
     var authorities: [Authority]?
     
-    let client = FSAClient(decoder: JSONDecoder())
+    public var fsaClient: FSAClientProtocol = FSAClient(decoder: JSONDecoder())
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +25,7 @@ class AuthoritiesViewController: UITableViewController {
         spinner.startAnimating()
         tableView.backgroundView = spinner
         
-        self.client.getAuthorities(resultHandler: {result in
+        self.fsaClient.getAuthorities(resultHandler: {result in
             self.tableView.backgroundView = nil
             self.refreshControl?.endRefreshing()
             self.authorities = result

@@ -8,7 +8,7 @@
 
 import Foundation
 
-class FSAClient {
+class FSAClient: FSAClientProtocol {
     
     private static let baseUrl = "https://api.ratings.food.gov.uk/"
     

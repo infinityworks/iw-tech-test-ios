@@ -8,10 +8,15 @@
 
 import Foundation
 
-struct Authority: Codable {
+public struct Authority: Codable {
     
     var id: Int
     var name: String
+    
+    public init(id: Int, name: String) {
+        self.id = id
+        self.name = name
+    }
     
     enum CodingKeys: String, CodingKey {
         case id = "LocalAuthorityId"
