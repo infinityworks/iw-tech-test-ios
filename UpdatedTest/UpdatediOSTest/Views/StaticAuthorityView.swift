@@ -1,10 +1,3 @@
-//
-//  AuthorityDetailView.swift
-//  UpdatediOSTest
-//
-//  Created by gabriele.virbasiute on 18/07/2022.
-//
-
 import SwiftUI
 
 struct AuthorityDetailView: View {

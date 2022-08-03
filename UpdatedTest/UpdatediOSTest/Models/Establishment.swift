@@ -1,10 +1,3 @@
-//
-//  Establishment.swift
-//  UpdatediOSTest
-//
-//  Created by gabriele.virbasiute on 15/07/2022.
-//
-
 import Foundation
 
 struct EstablishmentsResponse: Codable {
