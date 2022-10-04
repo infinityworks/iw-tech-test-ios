@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="6bf91052-4b38-4e71-861c-227b61d8d017" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/iOSTest/App/Launch Screen.storyboard" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/App/UpdatediOSTestApp.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/FSALogo.imageset/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Assets.xcassets/FSALogo.imageset/FSALogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Base/Endpoint.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Base/HTTPClient.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Base/HTTPMethod.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Base/RequestError.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Data/Models/Authority.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Data/Models/Establishment.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Data/Models/Rating.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Data/Repo/AuthorityRepo.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Endpoint/AuthorityEndpoint.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/NetworkService.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Preview Content/Preview Assets.xcassets/Contents.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/Service/AuthorityService.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/UI/AuthorityDetail/AuthorityDetailView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/UI/AuthorityList/AuthorityListView.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/UI/AuthorityList/AuthorityListViewModel.swift" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/iOSTest/UI/StaticAuthorityView.swift" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/FSALogo.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Assets.xcassets/FSALogo.imageset/FSALogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/FSAClient.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Launch Screen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Models/Authority.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Models/Establishment.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Models/Rating.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Preview Content/Preview Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/UpdatediOSTestApp.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Views/AuthorityDetailView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Views/AuthorityListView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UpdatedTest/UpdatediOSTest/Views/StaticAuthorityView.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity.xcodeproj/project.pbxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity.xcodeproj/project.xcworkspace/contents.xcworkspacedata" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity.xcodeproj/project.xcworkspace/xcshareddata/IDEWorkspaceChecks.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity.xcodeproj/project.xcworkspace/xcuserdata/IW-benfoster.xcuserdatad/UserInterfaceState.xcuserstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity.xcodeproj/xcuserdata/IW-benfoster.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity.xcodeproj/xcuserdata/IW-benfoster.xcuserdatad/xcschemes/xcschememanagement.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/AppDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-20x20@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-29x29@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-40x40@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-60x60@3x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@1x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-76x76@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/Icon-App-83.5x83.5@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/AppIcon.appiconset/ItunesArtwork@2x.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/FSALogo.imageset/Contents.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Assets.xcassets/FSALogo.imageset/FSALogo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Base.lproj/Main.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Constants.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/LaunchScreen.storyboard" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Model/Authority.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Network/FSAClient.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/Network/FSAClientProtocol.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/SceneDelegate.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/View/RatingCell.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/ViewController/AuthoritiesViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinity/ViewController/AuthoritySummaryViewController.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinityTests/AuthoritiesViewControllerTests.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinityTests/FSAClientMock.swift" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinityTests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinityUITests/Info.plist" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/fsa-infinityUITests/fsa_infinityUITests.swift" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphonesimulator_AD71F305-1638-485B-9641-97D4DAA432D2" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="AppCode" />
+    <option name="majorVersion" value="2022" />
+    <option name="minorVersion" value="2.2" />
+  </component>
+  <component name="ProjectId" id="2Fft67VsC9m0urPLy6gYAOfpRUT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/Users/aaron.b.thompson/Documents/techTest/iw-tech-test-ios"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6bf91052-4b38-4e71-861c-227b61d8d017" name="Changes" comment="" />
+      <created>1664894787647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1664894787647</updated>
+      <workItem from="1664894790357" duration="815000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
