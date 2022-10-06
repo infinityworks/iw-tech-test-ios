@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:fsa-infinity.xcodeproj">
+      location = "self:/Users/kieran.hall/Developer/Github/iw-tech-test-ios/iOSTest.xcodeproj">
    </FileRef>
 </Workspace>
