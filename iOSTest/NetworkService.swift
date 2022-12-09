@@ -2,21 +2,16 @@ import Foundation
 
 
 protocol NetworkProvider {
-    func getAuthorities() async throws -> Result<[Authority], Error>
+    func getAuthorities() async throws -> AuthoritiesResponse
 }
 
 class NetworkService: NetworkProvider {
     
-    enum AuthoritiesFetcherError: Error {
-        case invalidURL
-        case missingData
-    }
-    
     private static let baseUrl = "https://api.ratings.food.gov.uk"
     
-    func getAuthorities() async throws -> Result<[Authority], Error> {
+    func getAuthorities() async throws -> AuthoritiesResponse {
         guard let url = URL(string: NetworkService.baseUrl + "/authorities/basic") else {
-            return .failure(AuthoritiesFetcherError.invalidURL)
+            throw AuthoritiesFetcherError.invalidURL
         }
         
         var urlRequest = URLRequest(url: url)
@@ -26,6 +21,15 @@ class NetworkService: NetworkProvider {
         let (data, _) = try await URLSession.shared.data(for: urlRequest)
         
         let authoritiesResult = try JSONDecoder().decode(AuthoritiesResponse.self, from: data)
-        return .success(authoritiesResult.authorities)
+        return authoritiesResult
     }
 }
+
+extension NetworkService {
+    enum AuthoritiesFetcherError: Error {
+        case invalidURL
+        case unexpected(error: Error)
+    }
+}
+
+

@@ -9,7 +9,7 @@ struct AuthorityListView: View {
                 if viewModel.isLoading {
                     ProgressView()
                 } else if viewModel.hasError {
-                    Text("Network Error")
+                    networkErrorView
                 } else {
                     List {
                         ForEach(viewModel.authorities, id: \.self) { authority in
@@ -24,6 +24,17 @@ struct AuthorityListView: View {
             }.task {
                 await viewModel.update()
             }
+        }
+    }
+    
+    var networkErrorView: some View {
+        VStack {
+            Image(systemName: "wifi.exclamationmark")
+            Text("Network Error")
+                .font(.headline)
+            Text("Something went wrong...")
+                .font(.subheadline)
+                .foregroundColor(.gray)
         }
     }
 }

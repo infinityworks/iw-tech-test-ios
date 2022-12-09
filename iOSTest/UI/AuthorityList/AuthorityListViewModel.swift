@@ -6,8 +6,8 @@ extension AuthorityListView {
         
         @Published private(set) var authorities: [Authority] = []
         @Published private(set) var isLoading: Bool = false
+        @Published private(set) var error: NetworkService.AuthoritiesFetcherError?
         @Published var hasError: Bool = false
-        
         
         private let networkprovider: NetworkProvider
         
@@ -20,17 +20,15 @@ extension AuthorityListView {
             defer { isLoading = false }
             
             do {
-                let result = try await networkprovider.getAuthorities()
-                
-                switch result {
-                case let .success(data):
-                    hasError = false
-                    authorities = data
-                case .failure:
-                    hasError = true
-                }
+                let response = try await networkprovider.getAuthorities()
+                self.authorities = response.authorities
             } catch {
-                print("Unexpected error: \(error)")
+                self.hasError = true
+                if let networkingError = error as? NetworkService.AuthoritiesFetcherError {
+                    self.error = networkingError
+                } else {
+                    self.error = .unexpected(error: error)
+                }
             }
         }
     }
