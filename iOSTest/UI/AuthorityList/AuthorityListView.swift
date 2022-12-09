@@ -6,9 +6,9 @@ struct AuthorityListView: View {
     var body: some View {
         VStack(alignment: .leading) {
             NavigationView {
-                if viewModel.loading {
+                if viewModel.isLoading {
                     ProgressView()
-                } else if viewModel.error {
+                } else if viewModel.hasError {
                     Text("Network Error")
                 } else {
                     List {

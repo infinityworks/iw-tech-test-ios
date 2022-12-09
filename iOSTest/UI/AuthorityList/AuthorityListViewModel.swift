@@ -4,9 +4,9 @@ import Foundation
 extension AuthorityListView {
     @MainActor class ViewModel: ObservableObject {
         
-        @Published var loading: Bool = true
-        @Published var authorities: [Authority] = []
-        @Published var error: Bool = false
+        @Published private(set) var authorities: [Authority] = []
+        @Published private(set) var isLoading: Bool = false
+        @Published var hasError: Bool = false
         
         
         private let networkprovider: NetworkProvider
@@ -16,17 +16,18 @@ extension AuthorityListView {
         }
         
         func update() async {
+            isLoading = true
+            defer { isLoading = false }
+            
             do {
                 let result = try await networkprovider.getAuthorities()
                 
                 switch result {
                 case let .success(data):
-                    error = false
-                    loading = false
+                    hasError = false
                     authorities = data
                 case .failure:
-                    loading = false
-                    error = true
+                    hasError = true
                 }
             } catch {
                 print("Unexpected error: \(error)")
