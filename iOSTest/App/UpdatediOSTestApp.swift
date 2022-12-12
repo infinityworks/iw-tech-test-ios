@@ -4,7 +4,7 @@ import SwiftUI
 struct UpdatediOSTestApp: App {
     var body: some Scene {
         WindowGroup {
-            AuthorityListView()
+            ContentView()
         }
     }
 }

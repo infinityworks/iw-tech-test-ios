@@ -15,7 +15,8 @@
 		4707CD60287DCE82005C7D16 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4707CD5F287DCE82005C7D16 /* NetworkService.swift */; };
 		4707CD6E2886B3F0005C7D16 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4707CD6D2886B3F0005C7D16 /* Rating.swift */; };
 		4707CD702886B976005C7D16 /* AuthorityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4707CD6F2886B976005C7D16 /* AuthorityDetailView.swift */; };
-		4707CD722886BBAD005C7D16 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4707CD712886BBAD005C7D16 /* Launch Screen.storyboard */; };
+		4F21164029477C22003BE2A5 /* AuthorityListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21163F29477C22003BE2A5 /* AuthorityListViewModelTests.swift */; };
+		4F211642294785E7003BE2A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F211641294785E7003BE2A5 /* ContentView.swift */; };
 		E7EDD57328EB3ECE00B0393B /* AuthorityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDD57228EB3ECE00B0393B /* AuthorityListViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,8 +40,10 @@
 		4707CD5F287DCE82005C7D16 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
 		4707CD6D2886B3F0005C7D16 /* Rating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rating.swift; sourceTree = "<group>"; };
 		4707CD6F2886B976005C7D16 /* AuthorityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityDetailView.swift; sourceTree = "<group>"; };
-		4707CD712886BBAD005C7D16 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		4707CD772886E7E6005C7D16 /* iOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F21163F29477C22003BE2A5 /* AuthorityListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityListViewModelTests.swift; sourceTree = "<group>"; };
+		4F211641294785E7003BE2A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4F21C1FF2943898300ED66F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E7EDD57228EB3ECE00B0393B /* AuthorityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +69,7 @@
 			isa = PBXGroup;
 			children = (
 				4707CD4C287DCCE8005C7D16 /* iOSTest */,
+				4F21163D29477BFC003BE2A5 /* iOSUnitTests */,
 				4707CD4B287DCCE8005C7D16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -82,6 +86,7 @@
 		4707CD4C287DCCE8005C7D16 /* iOSTest */ = {
 			isa = PBXGroup;
 			children = (
+				4F21C1FF2943898300ED66F8 /* Info.plist */,
 				E7EDD57128EB3E7E00B0393B /* App */,
 				4707CD51287DCCEC005C7D16 /* Assets.xcassets */,
 				4707CD61288047F8005C7D16 /* UI */,
@@ -126,6 +131,14 @@
 			path = UI;
 			sourceTree = "<group>";
 		};
+		4F21163D29477BFC003BE2A5 /* iOSUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				4F21163F29477C22003BE2A5 /* AuthorityListViewModelTests.swift */,
+			);
+			path = iOSUnitTests;
+			sourceTree = "<group>";
+		};
 		E7EDD56E28EB3DE900B0393B /* AuthorityList */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,7 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				4707CD4D287DCCE8005C7D16 /* UpdatediOSTestApp.swift */,
-				4707CD712886BBAD005C7D16 /* Launch Screen.storyboard */,
+				4F211641294785E7003BE2A5 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -214,6 +227,7 @@
 					};
 					4707CD762886E7E6005C7D16 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1400;
 						TestTargetID = 4707CD49287DCCE8005C7D16;
 					};
 				};
@@ -242,7 +256,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4707CD722886BBAD005C7D16 /* Launch Screen.storyboard in Resources */,
 				4707CD55287DCCEC005C7D16 /* Preview Assets.xcassets in Resources */,
 				4707CD52287DCCEC005C7D16 /* Assets.xcassets in Resources */,
 			);
@@ -264,6 +277,7 @@
 			files = (
 				4707CD50287DCCE8005C7D16 /* AuthorityListView.swift in Sources */,
 				4707CD702886B976005C7D16 /* AuthorityDetailView.swift in Sources */,
+				4F211642294785E7003BE2A5 /* ContentView.swift in Sources */,
 				E7EDD57328EB3ECE00B0393B /* AuthorityListViewModel.swift in Sources */,
 				4707CD4E287DCCE8005C7D16 /* UpdatediOSTestApp.swift in Sources */,
 				4707CD5D287DCD20005C7D16 /* Authority.swift in Sources */,
@@ -276,6 +290,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F21164029477C22003BE2A5 /* AuthorityListViewModelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,10 +429,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOSTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -443,10 +457,9 @@
 				DEVELOPMENT_ASSET_PATHS = "\"iOSTest/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = iOSTest/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -466,16 +479,23 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gabby.UpdatediOSTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpdatediOSTest.app/UpdatediOSTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSTest";
 			};
 			name = Debug;
 		};
@@ -483,16 +503,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Gabby.UpdatediOSTestTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UpdatediOSTest.app/UpdatediOSTest";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/iOSTest";
 			};
 			name = Release;
 		};

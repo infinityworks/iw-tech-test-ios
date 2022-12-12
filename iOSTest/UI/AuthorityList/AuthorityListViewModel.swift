@@ -1,35 +1,32 @@
 import Foundation
 
 
-extension AuthorityListView {
-    @MainActor class ViewModel: ObservableObject {
+@MainActor
+final class AuthorityListViewModel: ObservableObject {
+    @Published private(set) var authorities: [Authority] = []
+    @Published private(set) var isLoading: Bool = false
+    @Published private(set) var error: NetworkService.AuthoritiesFetcherError?
+    @Published var hasError: Bool = false
+    
+    private let networkProvider: NetworkProvider
+    
+    init(networkProvider: NetworkProvider = NetworkService()) {
+        self.networkProvider = networkProvider
+    }
+    
+    func update() async {
+        isLoading = true
+        defer { isLoading = false }
         
-        @Published var loading: Bool = true
-        @Published var authorities: [Authority] = []
-        @Published var error: Bool = false
-        
-        
-        private let networkprovider: NetworkProvider
-        
-        init(networkprovider: NetworkProvider = NetworkService()) {
-            self.networkprovider = networkprovider
-        }
-        
-        func update() async {
-            do {
-                let result = try await networkprovider.getAuthorities()
-                
-                switch result {
-                case let .success(data):
-                    error = false
-                    loading = false
-                    authorities = data
-                case .failure:
-                    loading = false
-                    error = true
-                }
-            } catch {
-                print("Unexpected error: \(error)")
+        do {
+            let response = try await networkProvider.getAuthorities()
+            self.authorities = response.authorities
+        } catch {
+            self.hasError = true
+            if let networkingError = error as? NetworkService.AuthoritiesFetcherError {
+                self.error = networkingError
+            } else {
+                self.error = .unexpected(error: error)
             }
         }
     }
