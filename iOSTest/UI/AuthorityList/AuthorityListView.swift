@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct AuthorityListView: View {
-    @StateObject var viewModel = ViewModel()
+    @StateObject private var viewModel = AuthorityListViewModel()
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -19,7 +19,6 @@ struct AuthorityListView: View {
                         }
                     }
                     .navigationTitle("Local Authorities")
-                    .navigationBarTitleDisplayMode(.inline)
                 }
             }.task {
                 await viewModel.update()
