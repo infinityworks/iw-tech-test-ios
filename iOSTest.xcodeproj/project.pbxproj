@@ -16,6 +16,7 @@
 		4707CD6E2886B3F0005C7D16 /* Rating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4707CD6D2886B3F0005C7D16 /* Rating.swift */; };
 		4707CD702886B976005C7D16 /* AuthorityDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4707CD6F2886B976005C7D16 /* AuthorityDetailView.swift */; };
 		4F21164029477C22003BE2A5 /* AuthorityListViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F21163F29477C22003BE2A5 /* AuthorityListViewModelTests.swift */; };
+		4F211642294785E7003BE2A5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F211641294785E7003BE2A5 /* ContentView.swift */; };
 		E7EDD57328EB3ECE00B0393B /* AuthorityListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7EDD57228EB3ECE00B0393B /* AuthorityListViewModel.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +42,7 @@
 		4707CD6F2886B976005C7D16 /* AuthorityDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityDetailView.swift; sourceTree = "<group>"; };
 		4707CD772886E7E6005C7D16 /* iOSTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F21163F29477C22003BE2A5 /* AuthorityListViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityListViewModelTests.swift; sourceTree = "<group>"; };
+		4F211641294785E7003BE2A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		4F21C1FF2943898300ED66F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		E7EDD57228EB3ECE00B0393B /* AuthorityListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorityListViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -66,8 +68,8 @@
 		4707CD41287DCCE8005C7D16 = {
 			isa = PBXGroup;
 			children = (
-				4F21163D29477BFC003BE2A5 /* iOSUnitTests */,
 				4707CD4C287DCCE8005C7D16 /* iOSTest */,
+				4F21163D29477BFC003BE2A5 /* iOSUnitTests */,
 				4707CD4B287DCCE8005C7D16 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -167,6 +169,7 @@
 			isa = PBXGroup;
 			children = (
 				4707CD4D287DCCE8005C7D16 /* UpdatediOSTestApp.swift */,
+				4F211641294785E7003BE2A5 /* ContentView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -274,6 +277,7 @@
 			files = (
 				4707CD50287DCCE8005C7D16 /* AuthorityListView.swift in Sources */,
 				4707CD702886B976005C7D16 /* AuthorityDetailView.swift in Sources */,
+				4F211642294785E7003BE2A5 /* ContentView.swift in Sources */,
 				E7EDD57328EB3ECE00B0393B /* AuthorityListViewModel.swift in Sources */,
 				4707CD4E287DCCE8005C7D16 /* UpdatediOSTestApp.swift in Sources */,
 				4707CD5D287DCD20005C7D16 /* Authority.swift in Sources */,

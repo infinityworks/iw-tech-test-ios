@@ -2,6 +2,7 @@ import SwiftUI
 
 struct AuthorityListView: View {
     @StateObject private var viewModel = AuthorityListViewModel()
+    @State private var showingCopyright = false
     
     var body: some View {
         VStack(alignment: .leading) {
@@ -19,6 +20,17 @@ struct AuthorityListView: View {
                         }
                     }
                     .navigationTitle("Local Authorities")
+                    .toolbar {
+                        Button {
+                            showingCopyright.toggle()
+                        } label: {
+                            Image(systemName: "info.circle")
+                        }
+                    }
+                    .alert("Copyright © 2022 Infinity Works, Part of Accenture.", isPresented: $showingCopyright) {
+                    } message: {
+                        Text("All rights reserved.")
+                    }
                 }
             }.task {
                 await viewModel.update()
@@ -38,7 +50,7 @@ struct AuthorityListView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct AuthorityListView_Previews: PreviewProvider {
     static var previews: some View {
         AuthorityListView()
     }
